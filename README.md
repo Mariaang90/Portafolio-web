@@ -52,3 +52,7 @@ Enfoque del sitio web desarrollado (justificación)
 Diferenciadores clave (1–2)
 - Me gusta el análisis y resolver problemas, por eso me enfoco en entender errores y mejorar el orden, la seguridad y el rendimiento de los datos.
 - Tengo habilidades de comunicación y servicio al cliente, lo cual ayuda a coordinar con equipos y usuarios cuando hay incidentes o cambios.
+
+  Diseño y prototipado (Figma)
+Enlace al diseño: https://www.figma.com/make/aTXL4riOuql42T2DlSswSy/Boceto-de-CV-web?p=f&t=bLRIPtffxA1TaSMZ-0
+
