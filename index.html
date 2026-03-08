@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <a class="brand" href="#inicio">
+          <span class="brand__mark">MS</span>
+          <span class="brand__name">Mi Portafolio</span>
+        </a>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Abrir menú"
+          aria-controls="mainNav"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <nav class="nav" id="mainNav">
+          <a class="nav__link" href="#sobre-mi">Sobre mí</a>
+          <a class="nav__link" href="#skills">Skills</a>
+          <a class="nav__link" href="#experience">Experiencia</a>
+          <a class="nav__link" href="#contact">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="inicio" class="page">
+      <div class="container layout">
+        <aside class="profile card">
+          <div class="profile__top">
+            <div class="avatar" aria-hidden="true">👩‍💻</div>
+            <div>
+              <h1 class="profile__title">María Sanabria</h1>
+              <p class="profile__role">Junior DBA / Estudiante de Sistemas</p>
+            </div>
+          </div>
+
+          <p class="profile__bio">
+            Soy estudiante de Ingeniería en Sistemas y me interesa el área de
+            bases de datos. Me gusta aprender cosas nuevas, trabajar con orden y
+            buscar soluciones cuando algo no funciona. En este portafolio
+            muestro mis habilidades y proyectos de la universidad.
+          </p>
+
+          <div class="profile__chips">
+            <span class="chip">MySQL</span>
+            <span class="chip">PostgreSQL</span>
+            <span class="chip">SQL Server</span>
+            <span class="chip">MariaDB</span>
+          </div>
+
+          <div class="profile__actions">
+            <a class="btn btn--primary" href="#contact">Contactar</a>
+            <a
+              class="btn btn--ghost"
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noreferrer"
+              >LinkedIn</a
+            >
+          </div>
+
+          <div class="mini-stats">
+            <article class="mini-stats__item">
+              <div class="mini-stats__num">2+</div>
+              <div class="mini-stats__label">Cursos</div>
+            </article>
+            <article class="mini-stats__item">
+              <div class="mini-stats__num">5</div>
+              <div class="mini-stats__label">Proyectos</div>
+            </article>
+            <article class="mini-stats__item">
+              <div class="mini-stats__num">1</div>
+              <div class="mini-stats__label">Cert.</div>
+            </article>
+          </div>
+        </aside>
+
+        <section class="content">
+          <section class="hero card">
+            <div class="hero__badge">Disponible para prácticas ✨</div>
+            <h2 class="hero__headline">
+              Datos ordenados, páginas bonitas y proyectos que sí funcionan.
+            </h2>
+            <p class="hero__text">
+              Aquí presento lo que voy construyendo en la U: prácticas con SQL,
+              diseño de bases de datos y proyectos web. Mi meta es seguir
+              aprendiendo y aplicar esto en una práctica profesional.
+            </p>
+
+            <div class="hero__grid">
+              <article class="feature">
+                <div class="feature__icon">🧠</div>
+                <h3 class="feature__title">Aprendizaje rápido</h3>
+                <p class="feature__text">
+                  Me adapto a nuevas herramientas y conceptos.
+                </p>
+              </article>
+
+              <article class="feature">
+                <div class="feature__icon">🧩</div>
+                <h3 class="feature__title">Orden y lógica</h3>
+                <p class="feature__text">
+                  Me gusta que todo quede bien estructurado.
+                </p>
+              </article>
+
+              <article class="feature">
+                <div class="feature__icon">🛡️</div>
+                <h3 class="feature__title">Buenas prácticas</h3>
+                <p class="feature__text">
+                  Código claro, semántico y responsive.
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section id="sobre-mi" class="section">
+            <header class="section__header">
+              <h2 class="section__title">Sobre mí</h2>
+            </header>
+
+            <div class="grid-2">
+              <article class="card">
+                <h3 class="card__title">Lo que busco</h3>
+                <p class="muted">
+                  “Aprender más sobre bases de datos y participar en proyectos
+                  reales.”
+                </p>
+              </article>
+
+              <article class="card">
+                <h3 class="card__title">Lo que me gusta</h3>
+                <p class="muted">
+                  “Optimizar consultas, organizar información y hacer cosas
+                  visuales.”
+                </p>
+              </article>
+            </div>
+          </section>
+
+          <section id="skills" class="section">
+            <header class="section__header">
+              <h2 class="section__title">Skills</h2>
+            </header>
+
+            <div class="card">
+              <div class="skills">
+                <div class="skill">
+                  <div class="skill__top">
+                    <span>SQL</span><span class="muted">Intermedio</span>
+                  </div>
+                  <div class="bar"><span style="width: 70%"></span></div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__top">
+                    <span>Seguridad</span><span class="muted">Básico</span>
+                  </div>
+                  <div class="bar"><span style="width: 45%"></span></div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__top">
+                    <span>Backups y recovery</span
+                    ><span class="muted">Intermedio</span>
+                  </div>
+                  <div class="bar"><span style="width: 65%"></span></div>
+                </div>
+
+                <div class="skill">
+                  <div class="skill__top">
+                    <span>Optimización</span><span class="muted">Básico</span>
+                  </div>
+                  <div class="bar"><span style="width: 40%"></span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid-2">
+              <article class="card">
+                <h3 class="card__title">Herramientas</h3>
+                <div class="chips">
+                  <span class="chip">MySQL</span>
+                  <span class="chip">PostgreSQL</span>
+                  <span class="chip">MariaDB</span>
+                  <span class="chip">Docker</span>
+                  <span class="chip">Azure</span>
+                </div>
+              </article>
+
+              <article class="card">
+                <h3 class="card__title">Fortalezas</h3>
+                <ul class="list">
+                  <li>Responsable y constante</li>
+                  <li>Aprendo rápido</li>
+                  <li>Me gusta que se vea bonito</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <section id="experience" class="section">
+            <header class="section__header">
+              <h2 class="section__title">Experiencia</h2>
+            </header>
+
+            <div class="timeline">
+              <article class="timeline__item card">
+                <div class="timeline__dot" aria-hidden="true"></div>
+                <div class="timeline__content">
+                  <h3 class="card__title">
+                    Administradora de Base de Datos (DBA)
+                  </h3>
+                  <ul class="list">
+                    <li>
+                      Administración y monitoreo de bases de datos relacionales
+                      (MySQL, PostgreSQL, SQL Server)
+                    </li>
+                    <li>
+                      Respaldos y recuperación (backup & recovery) para evitar
+                      pérdida de datos
+                    </li>
+                    <li>
+                      Seguridad y control de accesos (usuarios, roles, permisos)
+                    </li>
+                    <li>
+                      Soporte y colaboración con otros equipos para cambios y
+                      resolución de incidentes
+                    </li>
+                    <li>Documentación de procesos y buenas prácticas</li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <section id="contact" class="section">
+            <header class="section__header">
+              <h2 class="section__title">Contacto</h2>
+            </header>
+
+            <div class="grid-2">
+              <article class="card contact-card">
+                <h3 class="card__title">Email</h3>
+                <p class="muted">maria.sanabria.ramirez@est.una.ac.cr</p>
+              </article>
+
+              <article class="card contact-card">
+                <h3 class="card__title">LinkedIn</h3>
+                <p class="muted">linkedin.com</p>
+              </article>
+
+              <article class="card contact-card">
+                <h3 class="card__title">GitHub</h3>
+                <p class="muted">
+                  https://github.com/Mariaang90?tab=repositories
+                </p>
+              </article>
+
+              <article class="card contact-card">
+                <h3 class="card__title">Ubicación</h3>
+                <p class="muted">San José, Costa Rica</p>
+              </article>
+            </div>
+
+            <p class="note">“Gracias por visitar mi portafolio”.</p>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">© 2026 · Hecho con HTML/CSS/JS</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
